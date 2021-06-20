@@ -38,3 +38,5 @@ git push
 
 #11 Check online repo to see your changes
 
+#12 if someone else updated your code, use below command to update your local code
+git pull
