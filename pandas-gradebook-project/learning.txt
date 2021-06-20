@@ -40,3 +40,6 @@ git push
 
 #12 if someone else updated your code, use below command to update your local code
 git pull
+
+#13 To unstage staged file, use below command
+git restore --staged <file>
