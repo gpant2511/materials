@@ -1,0 +1,40 @@
+Steps to work with git:
+
+#1 Install git if not present
+# downloaded and installed git from exe file
+# will learn using git desktop later
+
+#2 Setup a folder where you want to download and work on the project
+# In this case github_repo/realpython/
+# go to this folder in command prompt or powershell
+# configure your git user name and email using below commands (one time)
+git config --global user.name "gpant2511"
+git config --global user.email "g.pant2511@gmail.com"
+
+#3 Use your github account (or any git account) and fork a repo in your repo
+# Find a interesting project and click fork
+# Go to your repo and click the green button to copy the HTTPS link to the repo
+https://github.com/gpant2511/materials.git
+
+#4 Initialize git inside the folder
+git init
+
+#5 Clone the repo
+git clone https://github.com/gpant2511/materials.git
+
+#6 Make changes as needed
+
+#7 Check the file updates using git
+git status
+
+#8 If needed, add the file for commit
+git add learning.txt
+
+#9 Commit the file(s)
+git commit -m "jotting down steps for git operations"
+
+#10 Push the code to online repo
+git push
+
+#11 Check online repo to see your changes
+
